@@ -21,3 +21,7 @@ During my time at Kohaq Tech, I aim to:
 🤝 Learn from feedback and mentorship provided by experienced developers.
 
 🎥 Share my tech journey on platforms like Instagram Reels and LinkedIn.
+
+Project Deployed Links:-
+
+Week 2 deployed link: https://kohaq-course-launch.netlify.app/
