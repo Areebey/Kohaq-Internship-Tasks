@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kohaq Course Launch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-2">
+                <img src="./logo.jpeg" alt="Kohaq Education Logo" class="h-20 w-auto object-contain" />
+              </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#home" class="text-gray-600 hover:text-indigo-600 transition duration-300">Home</a>
+                <a href="#courses" class="text-gray-600 hover:text-indigo-600 transition duration-300">Courses</a>
+                <a href="#instructor" class="text-gray-600 hover:text-indigo-600 transition duration-300">Instructor</a>
+                <a href="#enroll" class="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 shadow-lg">Register Now</a>
+            </div>
+            <!-- Responsive Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <i class="fas fa-bars text-2xl text-gray-600"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center bg-white px-6 pb-4">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-indigo-600">Home</a>
+            <a href="#courses" class="block py-2 text-gray-600 hover:text-indigo-600">Courses</a>
+            <a href="#instructor" class="block py-2 text-gray-600 hover:text-indigo-600">Instructor</a>
+            <a href="#enroll" class="block mt-3 w-full text-center bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300">Register Now</a>
+        </div>
+    </header>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center text-center px-6">
+    <div class="text-white">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 animate-bounce">🚀 Course Launch Campaign</h2>
+      <p class="text-lg md:text-2xl mb-6">Choose your path: <span class="font-semibold">Gen AI Magic</span>, <span class="font-semibold">Python Pro</span>, and <span class="font-semibold">Web Dev Mastery</span></p>
+      <a href="#enroll" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Enroll Now (Early Bird Discount!)</a>
+    </div>
+  </section>
+
+  <!-- Course Highlights Section for showcase courses -->
+  <section id="courses" class="py-16 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Course Highlights</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-xl font-semibold mb-2">Gen AI Magic</h4>
+        <p>Master cutting-edge AI tools for productivity and creativity.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-xl font-semibold mb-2">Python Pro</h4>
+        <p>From basics to advanced Python, become job-ready.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+        <h4 class="text-xl font-semibold mb-2">Web Dev Mastery</h4>
+        <p>Full-stack development with modern frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructor Section -->
+  <section id="instructors" class="py-16 bg-gray-100">
+    <h3 class="text-3xl font-bold text-center mb-12">👨‍🏫 Meet Your Instructor</h3>
+    <div class="flex flex-col md:flex-row items-center ml-10 mr-10 justify-center gap-8">
+      <img src="https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Instructor" class="rounded-full w-40 h-40 shadow-lg" />
+      <div class="max-w-md text-center md:text-left">
+        <h4 class="text-2xl font-semibold mb-2">John Danial</h4>
+        <p class="text-gray-700">A passionate instructor with 5+ years of experience in AI, Gen AI and Mastery AI Tools. John has guided 1000+ students to successful tech careers.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Instructor" class="rounded-full w-40 h-40 shadow-lg" />
+      <div class="max-w-md text-center md:text-left">
+        <h4 class="text-2xl font-semibold mb-2">Sonia Rehman</h4>
+        <p class="text-gray-700">A passionate instructor with 10+ years of experience in AI, Python, and Web Development. John has guided 1000+ students to successful tech careers.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Instructor" class="rounded-full w-40 h-40 shadow-lg" />
+      <div class="max-w-md text-center md:text-left">
+        <h4 class="text-2xl font-semibold mb-2">Zeeshan Ali</h4>
+        <p class="text-gray-700">A passionate instructor with 10+ years of experience in AI, Python, and Web Development. John has guided 1000+ students to successful tech careers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 text-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white">
+    <h3 class="text-3xl font-bold mb-6">🔥 Don’t Miss Out!</h3>
+    <a href="#enroll" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Enroll Now</a>
+  </section>
+
+  <!-- Enroll Section -->
+  <section id="enroll" class="py-16 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">📌 Enroll Today</h3>
+    <form id="contact-form" class="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-md space-y-4">
+      <input type="text" placeholder="Full Name" class="w-full p-3 border rounded-md focus:ring-2 focus:ring-indigo-500" required />
+      <input type="email" placeholder="Email Address" class="w-full p-3 border rounded-md focus:ring-2 focus:ring-indigo-500" required />
+      <select class="w-full p-3 border rounded-md focus:ring-2 focus:ring-indigo-500" required>
+        <option value="">Select Course</option>
+        <option>Gen AI Magic</option>
+        <option>Python Pro</option>
+        <option>Web Dev Mastery</option>
+      </select>
+      <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-md font-semibold hover:bg-indigo-700 transition">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Kohaq. All rights reserved.</p>
+      <div class="flex justify-center mt-4 space-x-6">
+        <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+ <script>
+        // --- Mobile Menu ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // --- Contact Form ---
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your submission! We will get back to you shortly.');
+            contactForm.reset();
+        });
+        
+  </script>
+
+</body>
+</html>
